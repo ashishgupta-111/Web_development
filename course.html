@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st web design - Ashish</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,800;1,100;1,500&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/a35aa41d24.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpeg"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fas fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+   
+      
+
+    </section>
+    <!----Course-->
+    <section class="course">
+        <h1>Course We  offer</h1>
+        <p>B.TECH || BSC. || B.ED || BA</p>
+        <div class="row">
+             <div class="course-col">
+                 <h3>INTERMEDIATE</h3>
+                 <p>CS,IT,CSE,CIVIL</p>
+
+             </div>
+             <div class="course-col">
+                <h3>DEGREE</h3>
+                <p>DEGREE FROM AKTU UNIVERSITY</p>
+
+            </div>
+            <div class="course-col">
+                <h3>POST GRADUATION COURSES</h3>
+                <p>MBA || M TECH</p>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!--facilities-->
+    <section class="facilities">
+        <h1>OUR FACILITIES</h1>
+        <p>ALL FACILITIES PROVIDED</p>
+        <div class="row">
+            <div class="facilities-col">
+               <img src="images/library.png">
+               <h3>World class LIbrary</h3>
+               <p>India's Largest library with books from all over world</p>
+            </div>
+            <div class="facilities-col">
+             <img src="images/basketball.png">
+             <h3>largest playground</h3>
+             <p>All types of play ground  are present with full greenry</p>
+            </div> 
+            <div class="facilities-col">
+             <img src="images/cafeteria.png">
+             <h3>Best and Hygenic food</h3>
+             <p>All states food available</p>
+            </div>
+        </div>
+ </section>
+ 
+
+
+
+    
+<!----footer-->
+<section class="footer">
+    <h4>
+        About US
+    </h4>
+    <p>
+        One of the best college with very good reviews
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> By Our Director Ashish Gupta</p>
+</section>
+
+
+
+
+
+
+
+
+<!---------Java script for toggle menu-------->
+    <script>
+        var navlinks = document.getElementById("navlinks")
+
+        function showMenu(){
+            navlinks.style.right = "0";
+
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+            
+        }
+    </script>
+
+    
+</body>
+</html>

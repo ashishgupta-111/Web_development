@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st web design - Ashish</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,800;1,100;1,500&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/a35aa41d24.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpeg"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fas fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>CONTACT US</h1>
+    </section>
+   <!----CONTACT US-->
+   <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7019.741869689896!2d77.2596832502568!3d28.3929659540667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cdf85a3397e25%3A0xc32f6040633da5cf!2sBharat%20Petroleum%2C%20Petrol%20Pump%20-Fuel%20And%20Fun!5e0!3m2!1sen!2sin!4v1633810515730!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+   </section>
+   
+<section class="contact us">
+   <div class="row">
+       <div class="contact-col">
+           <div>
+            <i class="fa fa-home"></i>
+            <span>
+                <h5>
+                    ABC ROAD, ABC COLONY,XYZ BUILDING
+                </h5>
+                <P>GAZIABAD,UTTAR PRADESH,INDIA-201009</P>
+            </span>
+           </div>
+           <div>
+            <i class="fa fa-phone"></i>
+            <span>
+                <h5>
+                    +91 01243465789
+                </h5>
+                <p>
+                    24 x 7 DAY AVAILABLE
+                </p>
+            </span>
+           </div>
+           <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+                <h5>
+                    ashishcollege@gmail.com
+                </h5>
+                <p>
+                    Email us your query
+                </p>
+            </span>
+           </div>
+       </div>
+   </div>
+</section>
+
+    
+
+    
+<!----footer-->
+<section class="footer">
+    <h4>
+        About US
+    </h4>
+    <p>
+        One of the best college with very good reviews
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> By Our Director Ashish Gupta</p>
+</section>
+
+
+
+
+
+
+
+
+<!---------Java script for toggle menu-------->
+    <script>
+        var navlinks = document.getElementById("navlinks")
+
+        function showMenu(){
+            navlinks.style.right = "0";
+
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+            
+        }
+    </script>
+
+    
+</body>
+</html>

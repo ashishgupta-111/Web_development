@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1st web design - Ashish</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,800;1,100;1,500&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/a35aa41d24.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpeg"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fas fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certification and online programs for 2021</h1>
+   
+      
+
+    </section>
+<!---blog page content-->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg" >
+            <h2>Our certificate and online programs for 2021</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit soluta accusantium blanditiis consequuntur quia minima. Voluptates enim inventore laboriosam temporibus sint eius alias eum eveniet ea laudantium, tenetur asperiores quas!</p>
+            <br>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos nihil molestias iure quaerat deserunt atque libero distinctio dolorem maxime tempora voluptatem doloribus assumenda animi, officia saepe ipsam unde magnam est.
+            </p>
+            <br>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis facilis excepturi doloremque exercitationem, libero quibusdam voluptatibus, voluptates corrupti error natus nihil impedit, aut ratione deserunt dolore harum optio maiores suscipit.
+            </p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment">
+                    </textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+
+        </div>
+        <div class="blog-right">
+           <h3>post categories</h3>
+           <div>
+               <span>BUISNESS ANALYTICS</span>
+               <span>21</span>
+           </div>
+           <div>
+            <span>DATA LEARNING</span>
+            <span>20</span>
+           </div>
+           <div>
+            <span>MACHINE LEARNING</span>
+            <span>15</span>
+           </div>
+           <div>
+            <span>DEEP LEARNING</span>
+            <span>28</span>
+           </div>
+           <div>
+            <span>DATA STRUTCTURE</span>
+            <span>29</span>
+           </div>
+
+        </div>
+    </div>
+</section>
+
+    
+<!----footer-->
+<section class="footer">
+    <h4>
+        About US
+    </h4>
+    <p>
+        One of the best college with very good reviews
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> By Our Director Ashish Gupta</p>
+</section>
+
+
+
+
+
+
+
+
+<!---------Java script for toggle menu-------->
+    <script>
+        var navlinks = document.getElementById("navlinks")
+
+        function showMenu(){
+            navlinks.style.right = "0";
+
+        }
+        function hideMenu(){
+            navlinks.style.right = "-200px";
+            
+        }
+    </script>
+
+    
+</body>
+</html>
